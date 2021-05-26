@@ -1,5 +1,5 @@
 
-#       
+# -------------------------------------------      
 # -------- PIILOSANAN RAKENTAMINEN ----------        
 # -------------------------------------------
 
@@ -250,23 +250,8 @@ def main(ruudut, xy_lkm):
 
     # Sanojen pituudet
     sanapituus = []
-
-    '''# Vihjelista
-    vihjeet = ['Vaakasuoraan:','1.Phil, onko täällä sitä paljesoitinta? Ei oo, ei tuu, eikä tilata. (11)',\
-    '2.SAMOS... (5)','3.Mis on se kaikista söpöin? (5)'\
-    ,'4.SIIAT... (5)'\
-    ,'5.Tässäkin on yksi paikka leikattu ja liimattu. (3)','6.TATU...(4)'\
-    ,'7.AHKERA...(6)','8.Se mikä pienenä pyörii ja hyörii, noin parhain. (13)'\
-    ,'9.Jano soimaa, kun tekee kaikenlaista taitavasti. (10)','','Pystysuoraan:'\
-    ,'1.F-9 ote:"Rapia ois kunto, jos sitä käyttäis." (12)'\
-    ,'6.Ota jatsi, kommunistimiehiä tai elämän vastoinkäymisiä. (8)'\
-    ,'10.Äläpä Mel sekoile, järjestät vain uudestaan kotisi. (8)'\
-    ,'11.Nelosasia in, yksinolo out. (11)','12.Mi kuiski mun korvaani säveliä. (8)'\
-    ,'13.SELUS... (5)','14.NAMIT... (5)'\
-    ,'16.Akin napinaa:"Taas väärään suuntaan! Ja Saarikolle ja Haavistolle'\
-    ,'ihan sama." (7)','17.Onpa sporttinen ja monipuolinen se Luihu Ysirele. (12)']'''
-
     suomensanat = []
+    
     # Avataan Suomen sanalista ja tallennetaan haravoidut listaan
     flista = open('kotus_sanalista_v1.xml','r')
     for rivi in flista:
