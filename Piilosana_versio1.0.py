@@ -439,7 +439,7 @@ pygame.display.flip()
 if __name__ == "__main__":
     main(ruudut, xy_lkm)
 
-# ------ LOPETUS -----------
+# ------ LOPETUS ------------------------------------
 
 # Grafiikkanäytön sulkeminen
 pygame.quit()
@@ -450,3 +450,5 @@ file = open('ruudut%s.dat'%(tall),'wb')
 pickle.dump(ruudut,file)
 file.close()
 
+# --------------------------------------------------------------------------
+# --------------------------------------------------------------------------
